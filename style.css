@@ -5,11 +5,30 @@
 body{
     background-color: rgb(240, 228, 228);
     color: rgb(16, 26, 26);
-    height:100vh ; 
     box-sizing:border-box;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+
+}
+.header{
+    padding: 2% 0% 0% 15%;
+
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+  
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:aqua; 
+    text-decoration: none;
+}
+.contenedor_padre{
+    display: flex;
+    align-items: center;
+    padding: 6% 10%; 
+    justify-content: space-between;
+    gap: 20px;
 
 }
 strong{
@@ -17,15 +36,8 @@ strong{
 
 
 }
-strong{
-    color:rgb(10, 13, 14);
-
-    }
-    strong{
-
-    }
-    .faceblue{
-        color: #130909;
+.faceblue{
+        color: #10e010;
 
     }
 .imagen1{
@@ -34,15 +46,11 @@ strong{
     margin:0 10px;
     text-align:right;
 }
-.imagen2{
-    width: 360px;
-    display:inline-block;
-    margin:0 10px;
-    text-align:right;
-}
+
 .contenedor-principal{
     display:flex;
     justify-content:flex-end;
+    flex-direction: column-reverse;
     align-items: center;
     height: 100vh;
 
@@ -55,9 +63,26 @@ strong{
 }
 .music{
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: flex-start;
+    align-items:flex-start;
     flex-direction: column;
+    width: 10%;
+    height: 100vh;
+
     
 
+}
+.contenedor_aportes{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.enlace_biografia{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:aqua; 
+    text-decoration: none;
 }
