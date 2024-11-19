@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background-color: rgb(252, 250, 250);
+    background-color: rgb(223, 210, 154);
     color: rgb(16, 26, 26);
     box-sizing:border-box;
 
@@ -20,7 +22,7 @@ body{
   
     font-size: 1.5rem;
     font-weight: 600;
-    color:rgb(74, 73, 168) 
+    color:rgb(74, 73, 168); 
     text-decoration: none;
 }
 .contenedor_padre{
@@ -29,10 +31,20 @@ body{
     padding: 6% 10%; 
     justify-content: space-between;
     gap: 20px;
+    font-family:"Domine" serif;
+    color: rgb(135, 135, 196);
+    font-size: large;
+
 
 }
+h2{
+    color: rgb(14, 14, 150);
+    font-family: "Domine", serif;
+    font-style: normal;
+    font-weight: 500;
+}
 strong{
-    color:antiquewhite; 
+    color:rgb(187, 157, 118); 
 
 
 }
@@ -53,6 +65,9 @@ strong{
     flex-direction: column-reverse;
     align-items: center;
     height: 100vh;
+    font-family: "April fatface" serif;
+    color: rgb(55, 55, 95);
+    font-size: large;
 
 
 }
@@ -69,6 +84,10 @@ strong{
     width: 18%;
     height: 100vh;
     color: rgb(97, 96, 96);
+    font-family: "Domine" serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 
     
 
@@ -81,6 +100,8 @@ strong{
     height: 100vh;
     width: 18%;
     color:rgb(100, 100, 100);
+    font-family: "Domine" serif;
+    font-size: large;
 
 }
 .enlace_biografia{
@@ -89,4 +110,11 @@ strong{
     color:rgb(8, 8, 8); 
     text-decoration: none;
     width: 12%;
+}
+.presentacion__contenido__texto{
+    font-family: "Domine" serif;
+    font-optical-sizing: auto;
+    font-weight: 600%;
+    font-style: normal;
+    font-size: large;
 }
